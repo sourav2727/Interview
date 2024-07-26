@@ -1,0 +1,58 @@
+
+The DOM (Document Object Model) provides a comprehensive interface for interacting with and manipulating HTML and XML documents. Here are some of the most commonly used DOM properties:
+
+Document Properties
+document.documentElement: Returns the root element (<html>).
+document.head: Returns the <head> element.
+document.body: Returns the <body> element.
+document.title: Gets or sets the title of the document.
+document.URL: Returns the complete URL of the document.
+document.domain: Gets or sets the domain name of the server that loaded the document.
+document.referrer: Returns the URI of the page that linked to this page.
+document.cookie: Gets or sets the cookies associated with the document.
+document.readyState: Returns the loading state of the document (loading, interactive, complete).
+Element Properties
+element.innerHTML: Gets or sets the HTML content of an element.
+element.outerHTML: Gets or sets the HTML content of the element, including the element itself.
+element.innerText: Gets or sets the text content of an element.
+element.outerText: Gets or sets the text content of an element, including the element itself.
+element.id: Gets or sets the id attribute of an element.
+element.className: Gets or sets the class attribute of an element.
+element.classList: Returns a live DOMTokenList of the class attributes of the element.
+element.tagName: Returns the tag name of the element.
+element.attributes: Returns a live collection of all attributes registered to the specified node.
+element.children: Returns a live HTMLCollection of child elements of the element.
+element.style: Gets or sets the inline CSS styles for the element.
+Node Properties
+node.nodeName: Returns the name of the node.
+node.nodeType: Returns the type of the node.
+node.nodeValue: Gets or sets the value of a node.
+node.parentNode: Returns the parent node of the specified node.
+node.childNodes: Returns a live NodeList of child nodes of the specified node.
+node.firstChild: Returns the first child node of the specified node.
+node.lastChild: Returns the last child node of the specified node.
+node.nextSibling: Returns the node immediately following the specified one in its parent's childNodes list.
+node.previousSibling: Returns the node immediately preceding the specified one in its parent's childNodes list.
+Event Properties
+event.type: Returns the type of the event.
+event.target: Returns the element that triggered the event.
+event.currentTarget: Returns the element that is currently handling the event.
+event.relatedTarget: Returns the secondary target for the event.
+event.timeStamp: Returns the time at which the event was created.
+Form and Input Properties
+input.value: Gets or sets the current value of the input element.
+input.checked: Gets or sets the checked state of a checkbox or radio input.
+input.disabled: Gets or sets the disabled state of the input element.
+input.placeholder: Gets or sets the placeholder text for an input element.
+form.elements: Returns a live HTMLFormControlsCollection of the form's elements.
+form.action: Gets or sets the action URL for the form.
+form.method: Gets or sets the HTTP method for the form (GET, POST, etc.).
+Miscellaneous Properties
+window.location: Returns a Location object with information about the current URL.
+window.history: Provides access to the browser's session history.
+window.navigator: Returns a Navigator object with information about the user's browser.
+window.screen: Returns a Screen object with information about the user's screen.
+window.innerWidth: Returns the width of the window's content area.
+window.innerHeight: Returns the height of the window's content area.
+window.outerWidth: Returns the width of the window, including its borders and scrollbars.
+window.outerHeight: Returns the height of the window, including its borders and scrollbars.
