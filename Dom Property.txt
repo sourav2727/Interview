@@ -1,5 +1,4 @@
 
-The DOM (Document Object Model) provides a comprehensive interface for interacting with and manipulating HTML and XML documents. Here are some of the most commonly used DOM properties:
 
 Document Properties
 document.documentElement: Returns the root element (<html>).
